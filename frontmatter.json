@@ -1,5 +1,6 @@
 {
   "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -48,7 +49,8 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "Posts",
-      "path": "[[workspace]]/content/post"
+      "path": "[[workspace]]/content/post",
+      "previewPath": "post"
     }
   ],
   "frontMatter.taxonomy.tags": [
