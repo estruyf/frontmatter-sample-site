@@ -14,3 +14,5 @@ Front Matter is an integral Visual Studio Code extension that simplifies operati
 <!--more-->
 
 The extension brings CMS capabilities straight to Visual Studio Code. For example, you can keep a list of the used tags, categories, create content, and so much more.
+
+> Important: This is an important message for the current article.

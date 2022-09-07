@@ -63,6 +63,29 @@
       "description": "Add a new image with image caption",
       "body": "{{< caption \"[[&mediaUrl]]\" \"[[caption]]\" >}}",
       "isMediaSnippet": true
+    },
+    "Blockquote": {
+      "description": "Snippet for creating a blockquote",
+      "body": "{{< blockquote type=\"[[type]]\" text=\"[[selection]]\" >}}",
+      "fields": [
+        {
+          "name": "type",
+          "title": "type",
+          "type": "choice",
+          "choices": [
+            "info",
+            "warning",
+            "important"
+          ]
+        },
+        {
+          "name": "selection",
+          "title": "selection",
+          "type": "string",
+          "single": false,
+          "default": "FM_SELECTED_TEXT"
+        }
+      ]
     }
   }
 }

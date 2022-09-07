@@ -1,0 +1,9 @@
+
+{{ if .IsNamedParams }}
+<blockquote class='{{ lower (.Get "type") }}'>
+  <p>
+    <span class='blockquote_type'>{{ .Get "type"}}</span> 
+    <span>{{ .Get "text" | markdownify}}</span>
+  </p>
+</blockquote>
+{{ end }}

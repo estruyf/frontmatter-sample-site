@@ -939,3 +939,9 @@ h4.see-also {
     color: #CC0;
   }
 }
+
+
+.blockquote_type {
+  font-weight: bold;
+  text-transform: uppercase;
+}
