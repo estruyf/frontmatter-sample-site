@@ -8,3 +8,7 @@ This is a sample project to demonstrate the use of Front Matter CMS in a project
 4. `4_media`: Contains the media caption snippet
 5. `5_snippets`: Contains the snippets
 6. `6_extensibility`: Contains the extensibility sample
+
+## Sample site
+
+- [Azure Cologne Meetup](https://green-river-047e6a503.1.azurestaticapps.net/)
