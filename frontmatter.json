@@ -7,41 +7,38 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
-          "title": "Description",
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string",
+          "single": true,
+          "default": "Elio Struyf"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
+          "title": "tags",
           "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "type": "tags",
+          "default": []
         }
       ]
     }
@@ -54,6 +51,9 @@
       "path": "[[workspace]]/content/post"
     }
   ],
-  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.tags": [
+    "cms",
+    "demo"
+  ],
   "frontMatter.taxonomy.categories": []
 }
