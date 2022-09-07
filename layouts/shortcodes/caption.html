@@ -1,0 +1,15 @@
+{{ $url := index .Params 0 }}
+{{ $description := index .Params 1 }}
+{{ $lqidImg := index .Params 2 }}
+{{ $imgWidth := index .Params 3 }}
+
+{{ $preImg := "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="}}
+
+<div class="caption my-4">
+  <figure class="caption__figure">
+    <a class="lightbox" href="{{ .Site.BaseURL }}{{ $url }}"><img src="{{ .Site.BaseURL }}{{ $url }}" alt="{{$description}}" /></a>
+    {{ if $description }}
+    <figcaption class="caption__text">{{$description}}</figcaption>
+    {{ end }}
+  </figure>
+</div>

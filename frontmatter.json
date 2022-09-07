@@ -57,5 +57,12 @@
     "cms",
     "demo"
   ],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.snippets": {
+    "Image caption": {
+      "description": "Add a new image with image caption",
+      "body": "{{< caption \"[[&mediaUrl]]\" \"[[caption]]\" >}}",
+      "isMediaSnippet": true
+    }
+  }
 }
