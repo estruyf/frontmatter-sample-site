@@ -7,6 +7,7 @@ slug: front-matter-cms-demo
 tags:
   - demo
   - cms
+preview: /social/be764f0f-af0e-427b-b980-249dff4284e0.png
 ---
 
 Front Matter is an integral Visual Studio Code extension that simplifies operating and managing your markdown articles. We created the extension to support several static-site generators and frameworks parallel to Hugo, Jekyll, Hexo, NextJs, Gatsby, and more which provides you the power and control of a full-blown Content Management System (CMS).
